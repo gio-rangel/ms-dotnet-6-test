@@ -1,12 +1,16 @@
 ### LEVANTAR SERVICIO DOCKER ###
-
+----------------------------------------
+Chequear doc para microservicios: 
+https://dotnet.microsoft.com/en-us/learn/aspnet/microservice-tutorial/intro
 --------------------------------------------
 *Preview steps y consideraciones*:
 
 -> SDK:
 Último SDK lts para .Net 6 tiene version 6.0.428
 pero no existe una imagen con esta notacion exacta para esta version
-se uso: `mcr.microsoft.com/dotnet/sdk:6.0.428-1-focal-amd64` para descargar el sdk correspondiente
+se uso: `mcr.microsoft.com/dotnet/sdk:6.0.428-1-focal-amd64` para descargar el sdk correspondiente.
+Para consultar otras versiones de imagenes ir a Microsoft Artifact Registry: mcr.microsoft.com
+
 
 -> Runtime: 
 El runtime usado para esta version es el 6.0.36 por lo que tenemos que indicar en la imagen que utilice
